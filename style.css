@@ -8,19 +8,25 @@
 header{
     height: 60px;
     background-color: rgb(236, 85, 229);
-    margin: 15px;
+    margin: 1%;
 }
 
 .secondoblocco{
     height: 300px;
     background-color: rgb(201, 157, 100);
-    margin: 15px;
+    margin: 1%;
 }
 
 .conteiner{
     height: 600px;
     background-color: rgb(41, 108, 231);
-    margin: 0 15px;
+    margin: 1%;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .box-top { 
@@ -30,21 +36,20 @@ header{
 }
 
 .box-left{
-    
+
     width: 20%;
     height: 86%;
     background-color: rgb(130, 206, 206);
     float:left;
-    margin: 2% 1% 2% 0;
-  
+    margin: 1% 1% 0 0;
 }
+
 .box-center{
     width: 56%;
     height: 86%;
     background-color: rgb(130, 206, 206);
     float: left;
-    margin: 2% 1% 2% 1%;
-    
+    margin: 1% 1% 1% 1%;
 }
 
 .box-right{
@@ -52,18 +57,13 @@ header{
     height: 86%;
     background-color: rgb(130, 206, 206);
     float:right;
-    margin: 2% 0 2% 0;
-  
+    margin: 1% 0 2% 0;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 footer{
     height: 50px;
     background-color: rgb(94, 5, 102);
-    margin: 15px;
+    margin: 0 1%;
 }
+
