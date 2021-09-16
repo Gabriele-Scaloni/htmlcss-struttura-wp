@@ -1,17 +1,41 @@
 *{
-
+    margin: 0 ;
     padding: 0px;
     box-sizing: border-box;
 }
 
+
 .primoblocco{
     height: 60px;
     background-color: rgb(216, 58, 208);
-    margin: 0px 30px;
+    margin: 15px;
 }
 
 .secondoblocco{
     height: 300px;
     background-color: rgb(211, 171, 118);
-    margin: 15px 30px;
+    margin: 15px;
+}
+
+.conteiner {
+    height: 500px;
+    background-color: rgb(41, 108, 231);
+    margin: 15px;
+}
+.conteiner::after{
+    content: "";
+    display: table;
+    clear: both;}
+
+.box-top { 
+    height: 10%;
+    background-color: cyan;
+    clear: both;
+    
+}
+
+.box-left{
+    height: 25%;
+    background-color: cyan;
+    float: left;
 }
