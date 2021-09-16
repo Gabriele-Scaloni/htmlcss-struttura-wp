@@ -1,41 +1,69 @@
 *{
     margin: 0 ;
-    padding: 0px;
+    padding: 0;
     box-sizing: border-box;
 }
 
 
-.primoblocco{
+header{
     height: 60px;
-    background-color: rgb(216, 58, 208);
+    background-color: rgb(236, 85, 229);
     margin: 15px;
 }
 
 .secondoblocco{
     height: 300px;
-    background-color: rgb(211, 171, 118);
+    background-color: rgb(201, 157, 100);
     margin: 15px;
 }
 
-.conteiner {
-    height: 500px;
+.conteiner{
+    height: 600px;
     background-color: rgb(41, 108, 231);
-    margin: 15px;
+    margin: 0 15px;
 }
-.conteiner::after{
-    content: "";
-    display: table;
-    clear: both;}
 
 .box-top { 
+    width: auto;
     height: 10%;
-    background-color: cyan;
-    clear: both;
-    
+    background-color: rgb(130, 206, 206);
 }
 
 .box-left{
-    height: 25%;
-    background-color: cyan;
+    
+    width: 20%;
+    height: 86%;
+    background-color: rgb(130, 206, 206);
+    float:left;
+    margin: 2% 1% 2% 0;
+  
+}
+.box-center{
+    width: 56%;
+    height: 86%;
+    background-color: rgb(130, 206, 206);
     float: left;
+    margin: 2% 1% 2% 1%;
+    
+}
+
+.box-right{
+    width: 20%;
+    height: 86%;
+    background-color: rgb(130, 206, 206);
+    float:right;
+    margin: 2% 0 2% 0;
+  
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(94, 5, 102);
+    margin: 15px;
 }
